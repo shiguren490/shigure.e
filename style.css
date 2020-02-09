@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+body{
+    width: 100%;
+    background: #eee;
+}
+
+#header{
+    width: 100%;
+    overflow: hidden;
+    background: #483d8b;
+    padding: 6px 0px;
+    position: fixed;
+}
+
+#header h1{
+    float: left;
+    color: #f9f9f9;
+    margin-right: 48px;
+}
+
+nav{
+    overflow: hidden;
+}
+
+nav li{
+    list-style-type: none;
+    float: left;
+    margin-top: 2px;
+}
+
+nav a{
+    font-size: 16px;
+    display: block;
+    text-decoration: none;
+    color: #f9f9f9;
+    margin: 14px 16px 0px;
+    transition: 0.3s;
+}
+
+nav a:hover{
+    border-bottom: 3px solid #ff6699;
+}
+
+.main-visual{
+    width: 100%;
+    height: 300px;
+    background: #fff url(hero.jpg) 0 0 no-repeat;
+    background-size: cover;
+    margin-bottom: 32px;
+    padding-top: 60px;
+}
+
+.top-title{
+    font-size: 36px;
+    padding-left: 8px;
+    margin-bottom: 16px;
+    color: #483d8b;
+    font-weight: 400;
+}
+
+/*グラデーションの横線*/
+.top-title:after{
+content: "";
+display: block;
+height: 4px;
+background-image: linear-gradient(to right, #ff6699, #cc66ff);
+}
+
+h2{
+    color: #9900cc;
+}
+
+p{
+    font-size: 13px;
+    color: #483d8b;
+}
+
+img{
+    float: left;
+}
+
+#main{
+    width: 608px;
+    margin: 0 auto;
+    overflow: hidden;
+    background: #fff;
+    padding: 16px;
+}
+
+.container{
+    width: 640px;
+    margin: 0 auto;
+}
+
+.content{
+    border-bottom: 1px solid #eee;
+    padding: 16px 0;
+    overflow: hidden;
+}
+
+.content:last-child{
+    border-bottom: 0;
+}
+
+.right-box{
+    float: left;
+    width: 288px;
+    margin-left: 18px;
+}
+
+.left-box{
+    float: left;
+    width: 288px;
+    margin-left: 18px;
+}
