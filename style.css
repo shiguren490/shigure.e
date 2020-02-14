@@ -6,7 +6,7 @@
 
 body{
     width: 100%;
-    background: #eee;
+    background: #303030;
 }
 
 #header{
@@ -23,17 +23,17 @@ body{
     margin-right: 48px;
 }
 
-nav{
+nav {
     overflow: hidden;
 }
 
-nav li{
+#url li{
     list-style-type: none;
     float: left;
     margin-top: 2px;
 }
 
-nav a{
+#url a{
     font-size: 14px;
     display: block;
     text-decoration: none;
@@ -59,7 +59,7 @@ nav a:hover{
     font-size: 36px;
     padding-left: 8px;
     margin-bottom: 16px;
-    color: #483d8b;
+    color: #bc7aff;
     font-weight: 400;
 }
 
@@ -68,16 +68,16 @@ nav a:hover{
 content: "";
 display: block;
 height: 4px;
-background-image: linear-gradient(to right, #ff6699, #cc66ff);
+background-image: linear-gradient(to right, #cc66ff, #7affff);
 }
 
 h2{
-    color: #9900cc;
+    color: #7affff;
 }
 
 p{
     font-size: 13px;
-    color: #483d8b;
+    color: #eaf4fc;
 }
 
 img{
@@ -85,11 +85,11 @@ img{
 }
 
 #main{
-    width: 608px;
+    width: 610px;
     margin: 0 auto;
     overflow: hidden;
-    background: #fff;
-    padding: 16px;
+    background: #474a4d;
+    padding: 10px;
 }
 
 .container{
@@ -117,4 +117,8 @@ img{
     float: left;
     width: 288px;
     margin-left: 18px;
+}
+
+#like-text h3{
+    color: #7affff;
 }
